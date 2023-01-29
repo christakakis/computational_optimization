@@ -7,11 +7,17 @@ Supported types are:
 
 The final tsp function created in this code returns the following information about the problem:
 	1) Name
+	
 	2) Type
+	
 	3) Dimension
+	
 	4) Comment
+	
 	5) Distance
+	
 	6) Weight Matrix
+	
 	7) Capacity 		(if any)
 	8) Depots 			(if any)
 	9) Node Coordinates (if any)
