@@ -2,7 +2,7 @@ This parser was made to read TSP and more types of problem instances with the he
 
 Supported types are:
 
-	1) Instances of 				TSP, HCP, ATSP, SOP, CVRP.
+	1) Instances of 			TSP, HCP, ATSP, SOP, CVRP.
 	
 	2) Edge_Weight_Types of 		EXPLICIT, EUC_2D, EUC_3D, XRAY1, XRAY2, GEO, ATT.
 	
