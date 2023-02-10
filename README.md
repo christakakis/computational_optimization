@@ -19,7 +19,7 @@
   
   • **(7) TSP solver - Heuristic algorithm for finding optimal tour.** With the help of **elkai** and **TSP parser from code (6)** optimal tours are found and plotted.
   
-    • **(9) Arithmetic Mean (Scaling Technique)** This method aims to decrease the variance between the nonzero elements in the coefficient matrix A. Each
+  • **(9) Arithmetic Mean (Scaling Technique)** This method aims to decrease the variance between the nonzero elements in the coefficient matrix A. Each
 row is divided by the arithmetic mean of the absolute value of the elements in that row and each column is divided by the arithmetic mean of the absolute value of the elements in that column.
   
 This repository was initially created to store my personal python codes but also be available to others trying to build or understand something similar.
