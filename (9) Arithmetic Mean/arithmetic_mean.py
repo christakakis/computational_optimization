@@ -6,6 +6,9 @@ import numpy as np
 import pandas as pd
 import scipy
 
+# Remove scientific notation (i.e. numbers with e)
+np.set_printoptions(suppress=True)
+
 # Define rows, cols lenght
 rows = len(A)
 cols = len(A[1])
@@ -24,7 +27,7 @@ for i in range(rows):
         if A[i][j] != 0:
             row_non_zeros += 1
             r_non_zeros[i] = row_non_zeros
-            r[i] += A[i][j] 
+            r[i] += abs(A[i][j]) 
 
 print("Table A has the following Non-Zero elements per ROW:", r_non_zeros)
             
@@ -44,7 +47,7 @@ for j in range(cols):
         if A[i][j] != 0:
             col_non_zeros += 1
             s_non_zeros[j] = col_non_zeros
-            s[j] += A[i][j]
+            s[j] += abs(A[i][j])
             
 print("Table A after the update has the following Non-Zero elements per COL:", s_non_zeros)
 
