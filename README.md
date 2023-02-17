@@ -17,7 +17,9 @@
   
   • **(6) Parser for various TSP and more type of problems.** With the help of **tsplib95** a complete parser was made to read instances of type TSP, HCP, ATSP, SOP, CVRP. Also it supports Edge_Weight_Types of EXPLICIT, EUC_2D, EUC_3D, XRAY1, XRAY2, GEO, ATT, UPPER_ROW, LOWER_ROW and many more. Main goal of this parser is to return important information about a selected problem in order to apply heuristics and metaheuristics later. It is important to mention that this work was part of a group project and my part was about Hamiltonian Cycle Problems (HCP). Contributors are mentioned inside the files.
   
-  • **(7) TSP solver - Heuristic algorithm for finding optimal tour.** With the help of **elkai** and **TSP parser from code (6)** optimal tours are found and plotted.
+  • **(7) TSP solver - Heuristic algorithm for optimal tour.** With the help of **elkai library** and **TSP parser from code (6)**, Lin-Kernighan-Helsgaun heuristic algorithm is applied to HCP, TSP, ATSP, SOP files to find optimal tour and plot them.
+  
+  • **(8) CVRP solver - Finding routes and their weights.** With the help of **VRPy python framework** and **TSP parser from code (6)**, best routes for CVRP files are found,  as well as their weights.
   
   • **(9) Arithmetic Mean (Scaling Technique)** This method aims to decrease the variance between the nonzero elements in the coefficient matrix A. Each
 row is divided by the arithmetic mean of the absolute value of the elements in that row and each column is divided by the arithmetic mean of the absolute value of the elements in that column.
